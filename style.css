@@ -67,6 +67,7 @@ body{
     font-weight: 400;
     line-height: 22px;
     margin: 0 24px 44px 24px;
+    font-family: var(--fuenteP1);
 }
 .card__Segunda__precios{
     display: flex;
