@@ -60,6 +60,7 @@ body{
     font-size: 2.2em;
     line-height: 34px;
     margin: 0 24px 16px 24px;
+    font-family: var(--fuenteP1);
 }
 .card__Segunda__descripcion{
     color:var(--Darkgrayishblue);
@@ -67,7 +68,7 @@ body{
     font-weight: 400;
     line-height: 22px;
     margin: 0 24px 44px 24px;
-    font-family: var(--fuenteP1);
+   
 }
 .card__Segunda__precios{
     display: flex;
@@ -130,6 +131,7 @@ body{
     .card__Segunda__descripcion{
         line-height: 24px;
         margin-bottom: 24px;
+        
     }
     .card__Segunda__precios{
         margin-bottom: 26px;
