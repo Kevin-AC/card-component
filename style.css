@@ -1,0 +1,139 @@
+:root{
+    /*primario*/
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    
+    /***neutral****/
+    --Verydarkblue: hsl(212, 21%, 14%);
+    --Darkgrayishblue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --DarkGreen:hsl(156,42%,18%);
+
+    --fuenteP1: 'Fraunces', serif;
+    --fuenteP2: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:var(--Cream);
+    font-family: var(--fuenteP2);
+    font-size: 14px;
+}
+
+.card{
+    width: 344px;
+    height: 612px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 68px auto;
+    background-color:var(--White);
+
+
+}
+
+.card__primera__img{
+    width: 100%;
+    border-radius:12px 0 0;
+    
+    
+}
+.card__segunda{
+    background-color: var(--White);
+    
+
+}
+.card__segunda__tipo-producto{
+    color: var(--Darkgrayishblue);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: var(--fuenteP2);
+    font-size: 1em;
+    margin: 18px 24px 8px;
+}
+.card__Segunda__titulo{
+    color: var(--Verydarkblue);
+    font-size: 2.2em;
+    line-height: 34px;
+    margin: 0 24px 16px 24px;
+}
+.card__Segunda__descripcion{
+    color:var(--Darkgrayishblue);
+    font-size: 0.95em;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0 24px 44px 24px;
+}
+.card__Segunda__precios{
+    display: flex;
+    gap: 16px;
+    margin: 0 24px 16px 24px;
+    align-items: center;
+}
+.card__Segunda__oferta{
+    font-family: var(--fuenteP1);
+    font-size: 2.3em;
+    color: var(--Darkcyan);
+
+}
+.card__Segunda__normal{
+    text-decoration: line-through;
+    color: var(--Darkgrayishblue);
+}
+.card__Segunda__boton{
+    width: 296px;
+    height: 50px;
+    background-color: var(--Darkcyan);
+    color: var(--White);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 700;
+    display:block;
+    margin: auto;
+}
+.card__Segunda__boton:hover{
+    cursor: pointer;
+    background-color:var(--DarkGreen)
+}
+.card__Segunda__boton__icon{
+    margin-right: 12px;
+}
+
+.attribution { font-size: 14px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media(min-width:768px){
+    .card{
+        width:600px;
+        height:450px;
+        display: flex;
+        margin: 175px auto 75px;
+    }
+    .card__primera{
+        width: 300px;
+       
+    }
+    .card__segunda{
+        width: 300px;
+    }
+    .card__primera__img{
+        content: url(./images/image-product-desktop.jpg);
+    }
+    .card__segunda__tipo-producto{
+        margin: 32px 24px 16px 24px;
+    }
+    .card__Segunda__descripcion{
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+    .card__Segunda__precios{
+        margin-bottom: 26px;
+    }
+    .card__Segunda__boton{
+        width: 240px;
+    }
+}
