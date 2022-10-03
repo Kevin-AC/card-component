@@ -37,7 +37,7 @@ body{
 
 .card{
     width: 34rem;
-    height: 62rem;
+    height: 61rem;
     border-radius: 1.2rem;
     overflow: hidden;
     margin: 68px auto;
@@ -62,19 +62,19 @@ body{
     text-transform: uppercase;
     letter-spacing: .3rem;
     font-family: var(--fuenteP2);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin: 1.8rem 2.4rem .8rem;
 }
 .card__Segunda__titulo{
     color: var(--Verydarkblue);
     font-size: 3rem;
-    line-height: 3.4rem;
+    line-height: 3.2rem;
     margin: 0 2.4rem 1.6rem 2.4rem;
     font-family: var(--fuenteP1);
 }
 .card__Segunda__descripcion{
     color:var(--Darkgrayishblue);
-    font-size: 1.4rem;
+    font-size: 0.875;
     font-weight: 400;
     line-height: 2.2rem;
     margin: 0 2.4rem 2rem 2.4rem;
@@ -132,16 +132,21 @@ body{
     .card__segunda{
         width: 30rem;
     }
+    .card__Segunda__titulo{
+        font-size: 3.5rem;
+        line-height: 3.4rem;
+    }
     .card__primera__img{
         content: url(./images/image-product-desktop.jpg);
     }
     .card__segunda__tipo-producto{
         margin: 3.3rem 2.4rem 1.6rem 2.4rem;
     }
+   
     .card__Segunda__descripcion{
         line-height: 2.4rem;
-        margin-bottom: 2.4rem;
         
+        margin-bottom: 2.4rem;   
     }
     .card__Segunda__precios{
         margin-bottom: 2.6rem
