@@ -12,6 +12,16 @@
     --fuenteP1: 'Fraunces', serif;
     --fuenteP2: 'Montserrat', sans-serif;
 }
+html{
+    box-sizing: border-box;
+    font-size:62.5%; /* 1 rem = 10px */    
+}
+
+*,*:before,*:after{ /*solucionar modelo de cajas*/
+    box-sizing: inherit;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -22,22 +32,22 @@
 body{
     background-color:var(--Cream);
     font-family: var(--fuenteP2);
-    font-size: 14px;
+    font-size:  1.4rem;
 }
 
 .card{
-    width: 344px;
-    height: 612px;
-    border-radius: 12px;
+    width:21.5rem;
+    height: 38.25rem;
+    border-radius: 0.75rem;
     overflow: hidden;
-    margin: 68px auto;
+    margin:4.25rem auto;
     background-color:var(--White);
 
 
 }
 
 .card__primera__img{
-    width: 100%;
+    width: 100%;/*coregir*/
     border-radius:12px 0 0;
     
     
@@ -52,19 +62,19 @@ body{
     text-transform: uppercase;
     letter-spacing: 3px;
     font-family: var(--fuenteP2);
-    font-size: 1em;
+    font-size: 1.4rem;
     margin: 18px 24px 8px;
 }
 .card__Segunda__titulo{
     color: var(--Verydarkblue);
-    font-size: 2.2em;
+    font-size: 3.8rem;
     line-height: 34px;
     margin: 0 24px 16px 24px;
     font-family: var(--fuenteP1);
 }
 .card__Segunda__descripcion{
     color:var(--Darkgrayishblue);
-    font-size: 0.95em;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 22px;
     margin: 0 24px 44px 24px;
@@ -78,7 +88,7 @@ body{
 }
 .card__Segunda__oferta{
     font-family: var(--fuenteP1);
-    font-size: 2.3em;
+    font-size: 3.6rem;
     color: var(--Darkcyan);
 
 }
@@ -93,7 +103,7 @@ body{
     color: var(--White);
     border: none;
     border-radius: 8px;
-    font-size: 1.1em;
+    font-size: 1.7rem;
     font-weight: 700;
     display:block;
     margin: auto;
