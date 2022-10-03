@@ -36,19 +36,19 @@ body{
 }
 
 .card{
-    width:21.5rem;
-    height: 38.25rem;
-    border-radius: 0.75rem;
+    width: 34.4rem;
+    height: 61.2rem;
+    border-radius: 1.2rem;
     overflow: hidden;
-    margin:4.25rem auto;
+    margin: 6.8rem auto;
     background-color:var(--White);
 
 
 }
 
 .card__primera__img{
-    width: 100%;/*coregir*/
-    border-radius:0.75rem 0 0;
+    width: 100%;
+    border-radius:12px 0 0;
     
     
 }
@@ -60,30 +60,30 @@ body{
 .card__segunda__tipo-producto{
     color: var(--Darkgrayishblue);
     text-transform: uppercase;
-    letter-spacing: 0.1875rem;
+    letter-spacing: .3rem;
     font-family: var(--fuenteP2);
     font-size: 1.4rem;
-    margin: 1.125rem 1.5rem 0.5rem;
+    margin: 1.8rem 2.4rem .8rem;
 }
 .card__Segunda__titulo{
     color: var(--Verydarkblue);
     font-size: 3.8rem;
-    line-height: 2.125rem;
-    margin: 0 1.5rem 1rem 1.5rem;
+    line-height: 3.4rem;
+    margin: 0 2.4rem 1.6rem 2.4rem;
     font-family: var(--fuenteP1);
 }
 .card__Segunda__descripcion{
     color:var(--Darkgrayishblue);
     font-size: 1.5rem;
     font-weight: 400;
-    line-height: 1.375rem;
-    margin: 0 1.5rem 2.75rem 1.5rem;
+    line-height: 2.2rem;
+    margin: 0 2.4rem 4.4rem 2.4rem;
    
 }
 .card__Segunda__precios{
     display: flex;
     gap: 1rem;
-    margin: 0 1.5rem 1rem 1.5rem;
+    margin: 0 2.4rem 1.6rem 2.4rem;
     align-items: center;
 }
 .card__Segunda__oferta{
@@ -97,12 +97,12 @@ body{
     color: var(--Darkgrayishblue);
 }
 .card__Segunda__boton{
-    width: 18.5rem;
-    height: 3.125rem;
+    width: 29.6rem;
+    height: 5rem;
     background-color: var(--Darkcyan);
     color: var(--White);
     border: none;
-    border-radius: 0.5rem;
+    border-radius: .8rem;
     font-size: 1.7rem;
     font-weight: 700;
     display:block;
@@ -113,40 +113,40 @@ body{
     background-color:var(--DarkGreen)
 }
 .card__Segunda__boton__icon{
-    margin-right: 0.75rem;
+    margin-right: 1.2rem;
 }
 
-.attribution { font-size: 0.875rem; text-align: center; }
+.attribution { font-size: 14px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 @media(min-width:768px){
     .card{
-        width:37.5rem;
-        height:28.125rem;
+        width:60rem;
+        height:45rem;
         display: flex;
-        margin: 10.9375rem auto 4.6875rem;
+        margin: 17.5rem auto 7.5rem;
     }
     .card__primera{
-        width: 18.75rem;
+        width: 30rem;
        
     }
     .card__segunda{
-        width: 18.75rem;
+        width: 30rem;
     }
     .card__primera__img{
         content: url(./images/image-product-desktop.jpg);
     }
     .card__segunda__tipo-producto{
-        margin: 2rem 1.5rem 1rem 1.5rem;
+        margin: 3.3rem 2.4rem 1.6rem 2.4rem;
     }
     .card__Segunda__descripcion{
-        line-height: 1.5rem;
-        margin-bottom: 1.5rem;
+        line-height: 2.4rem;
+        margin-bottom: 2.4rem;
         
     }
     .card__Segunda__precios{
-        margin-bottom: 1.625rem;
+        margin-bottom: 2.6rem
     }
     .card__Segunda__boton{
-        width: 15rem;
+        width: 24rem;
     }
 }
