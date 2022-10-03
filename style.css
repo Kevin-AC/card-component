@@ -33,6 +33,10 @@ body{
     background-color:var(--Cream);
     font-family: var(--fuenteP2);
     font-size:  1.4rem;
+
+    min-height: 100vh;
+    display: grid;
+    place-content: center ;
 }
 
 .card{
@@ -46,14 +50,13 @@ body{
 
 }
 
-.card__primera__img{
+.card__primera__img img{
     max-width: 100%;
     display: block;
     object-fit: cover;
-    border-radius:12px 0 0;
-    
-    
+    border-radius:12px 0 0;  
 }
+
 .card__segunda{
     background-color: var(--White);
     
@@ -138,9 +141,11 @@ body{
         font-size: 3.5rem;
         line-height: 3.4rem;
     }
+   /*
     .card__primera__img{
         content: url(./images/image-product-desktop.jpg);
     }
+    */
     .card__segunda__tipo-producto{
         margin: 3.3rem 2.4rem 1.6rem 2.4rem;
     }

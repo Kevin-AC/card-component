@@ -17,7 +17,15 @@
 <body>
   <main class="card">
     <section class="card__primera">
-      <img class="card__primera__img" src="./images/image-product-mobile.jpg" alt="imagenProducto">
+      <picture class="card__primera__img">
+        <source srcset="./images/image-product-desktop.jpg" media="(min-width:768px)">
+        <img src="./images/image-product-mobile.jpg" width="350">
+      </picture>
+      <!---
+        
+       <img class="card__primera__img" src="./images/image-product-mobile.jpg" alt="imagenProducto">
+      -->
+     
     </section>
     <section class="card__segunda">
     
