@@ -48,7 +48,7 @@ body{
 
 .card__primera__img{
     width: 100%;/*coregir*/
-    border-radius:12px 0 0;
+    border-radius:0.75rem 0 0;
     
     
 }
@@ -60,30 +60,30 @@ body{
 .card__segunda__tipo-producto{
     color: var(--Darkgrayishblue);
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 0.1875rem;
     font-family: var(--fuenteP2);
     font-size: 1.4rem;
-    margin: 18px 24px 8px;
+    margin: 1.125rem 1.5rem 0.5rem;
 }
 .card__Segunda__titulo{
     color: var(--Verydarkblue);
     font-size: 3.8rem;
-    line-height: 34px;
-    margin: 0 24px 16px 24px;
+    line-height: 2.125rem;
+    margin: 0 1.5rem 1rem 1.5rem;
     font-family: var(--fuenteP1);
 }
 .card__Segunda__descripcion{
     color:var(--Darkgrayishblue);
     font-size: 1.5rem;
     font-weight: 400;
-    line-height: 22px;
-    margin: 0 24px 44px 24px;
+    line-height: 1.375rem;
+    margin: 0 1.5rem 2.75rem 1.5rem;
    
 }
 .card__Segunda__precios{
     display: flex;
-    gap: 16px;
-    margin: 0 24px 16px 24px;
+    gap: 1rem;
+    margin: 0 1.5rem 1rem 1.5rem;
     align-items: center;
 }
 .card__Segunda__oferta{
@@ -97,12 +97,12 @@ body{
     color: var(--Darkgrayishblue);
 }
 .card__Segunda__boton{
-    width: 296px;
-    height: 50px;
+    width: 18.5rem;
+    height: 3.125rem;
     background-color: var(--Darkcyan);
     color: var(--White);
     border: none;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     font-size: 1.7rem;
     font-weight: 700;
     display:block;
@@ -113,40 +113,40 @@ body{
     background-color:var(--DarkGreen)
 }
 .card__Segunda__boton__icon{
-    margin-right: 12px;
+    margin-right: 0.75rem;
 }
 
-.attribution { font-size: 14px; text-align: center; }
+.attribution { font-size: 0.875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 @media(min-width:768px){
     .card{
-        width:600px;
-        height:450px;
+        width:37.5rem;
+        height:28.125rem;
         display: flex;
-        margin: 175px auto 75px;
+        margin: 10.9375rem auto 4.6875rem;
     }
     .card__primera{
-        width: 300px;
+        width: 18.75rem;
        
     }
     .card__segunda{
-        width: 300px;
+        width: 18.75rem;
     }
     .card__primera__img{
         content: url(./images/image-product-desktop.jpg);
     }
     .card__segunda__tipo-producto{
-        margin: 32px 24px 16px 24px;
+        margin: 2rem 1.5rem 1rem 1.5rem;
     }
     .card__Segunda__descripcion{
-        line-height: 24px;
-        margin-bottom: 24px;
+        line-height: 1.5rem;
+        margin-bottom: 1.5rem;
         
     }
     .card__Segunda__precios{
-        margin-bottom: 26px;
+        margin-bottom: 1.625rem;
     }
     .card__Segunda__boton{
-        width: 240px;
+        width: 15rem;
     }
 }
