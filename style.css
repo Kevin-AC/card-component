@@ -47,7 +47,9 @@ body{
 }
 
 .card__primera__img{
-    width: 100%;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
     border-radius:12px 0 0;
     
     
